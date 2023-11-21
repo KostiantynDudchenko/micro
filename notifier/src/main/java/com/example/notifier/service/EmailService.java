@@ -17,7 +17,7 @@ public class EmailService {
     public void sendSimpleMessage(String subject, String text) {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setFrom("noreply@baeldung.com");
-        message.setTo("NAV1gaTOR87@yandex.ru");
+        message.setTo("---");
         message.setSubject(subject);
         message.setText(text);
         emailSender.send(message);
